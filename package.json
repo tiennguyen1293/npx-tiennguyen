@@ -1,14 +1,14 @@
 {
   "name": "tiennguyen",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "A personal card for Nguyen Minh Tien (@tiennguyen1293)",
   "main": "bin/card.js",
   "bin": {
-    "trongthanh": "./bin/card.js"
+    "tiennguyen": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tiennguyen/npx-tiennguyen.git"
+    "url": "git+https://github.com/tiennguyen1293/npx-tiennguyen.git"
   },
   "scripts": {
     "prepublish": "npm run build",
@@ -39,8 +39,8 @@
     "standard": "^12.0.1"
   },
   "bugs": {
-    "url": "https://github.com/tiennguyen/npx-tiennguyen/issues"
+    "url": "https://github.com/tiennguyen1293/npx-tiennguyen/issues"
   },
-  "homepage": "https://github.com/tiennguyen/npx-tiennguyen#readme",
+  "homepage": "https://github.com/tiennguyen1293/npx-tiennguyen#readme",
   "dependencies": {}
 }

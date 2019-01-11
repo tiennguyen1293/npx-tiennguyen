@@ -18,7 +18,8 @@ const options = {
 const data = {
 	name:            chalk.white('           Nguyen Minh Tien'),
 	handle:          chalk.white('tiennguyen'),
-	work:            chalk.white('Front-End Developer / Software Engineer'),
+	work:            chalk.white('Front-End Developer'),
+	workOther:       chalk.white('Software Engineer'),
 	from:            chalk.white('Sai Gon, Vietnam'),
 	github:          chalk.gray('https://github.com/') + chalk.green('tiennguyen1293'),
 	npx:             chalk.red('npx') + ' ' + chalk.white('tiennguyen'),
@@ -30,7 +31,7 @@ const data = {
 
 // Actual strings we're going to output, newlines matter
 const output = `${data.name} / ${data.handle}
-${data.labelWork}  ${data.work}
+${data.labelWork}  ${data.work} / ${data.workOther}
 ${data.labelFrom}  ${data.from}
 ${data.labelGitHub}  ${data.github}
 ${data.labelCard}  ${data.npx}
